@@ -116,3 +116,17 @@ nav ul li a:hover {
   margin-bottom: 20px;
   text-align: center;
 }
+
+/*ABOUT PAGE*/
+
+.about-section {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 40px;
+  align-items: center;
+}
+
+.about-section img {
+  width: 100%;
+  border-radius: 15px;
+}
